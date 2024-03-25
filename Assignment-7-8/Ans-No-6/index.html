@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment No-6</title>
+  </head>
+  <body>
+    <h2>Percentage Calculator</h2>
+    <form>
+      <label for="subject1">Subject 1 Marks:</label>
+      <input type="number" id="subject1" required /><br /><br />
+
+      <label for="subject2">Subject 2 Marks:</label>
+      <input type="number" id="subject2" required /><br /><br />
+
+      <label for="subject3">Subject 3 Marks:</label>
+      <input type="number" id="subject3" required /><br /><br />
+
+      <label for="totalMarks">Total Marks:</label>
+      <input type="number" id="totalMarks" required /><br /><br />
+
+      <button type="button" onclick="calculatePercentage()">
+        Calculate Percentage
+      </button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
